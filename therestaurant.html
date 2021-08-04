@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">The Restuarant</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#location" class="w3-bar-item w3-button">Location</a>
+      <a href="#media" class="w3-bar-item w3-button">Media</a>
+<a href="#video" class="w3-bar-item w3-button">Video</a>
+<a href="#breakfast" class="w3-bar-item w3-button">Breakfast</a>
+<a href="#food" class="w3-bar-item w3-button">Food</a>
+<a href="#drink" onclick="w3_close()" class="w3-bar-item w3-button">Drinks</a>
+<a href="#sweat" onclick="w3_close()" class="w3-bar-item w3-button">Sweats</a>
+<a href="#booking" class="w3-bar-item w3-button">Booking</a>
+<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+</div>
+
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="img1.jpeg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">The Restuarant</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+<br>
+
+<br>
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="img2.jfif" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="750" height="850">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About us</h1><br>
+      <h5 class="w3-center">Tradition since 2007</h5>
+      <p class="w3-large">Gökçe visited several countries including Argentina and the United States between 2007 and 2010, where he worked in local restaurants for free, in order to gain experience as a cook and a restaurateur.[8] After his return to Turkey, Gökçe opened his first restaurant in Istanbul in 2010[12] and later opened a Dubai restaurant in 2014</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">The dishes served at Gökçe's establishments have received mixed reviews and have been described as "overpriced".[11][14] Early professional reviews in 2018 of his New York City steakhouse were generally negative.[15][16] The New York Post's Steve Cuozzo called the restaurant "Public Rip-off No. 1" and Joshua David Stein writing in GQ called the steak mundane and the hamburgers overcooked.[15] However, from an entertainment standpoint, reviews were more positive.[17] Eater's Robert Sietsema states, "If you are intent on judging New York's new branch of Nusr-Et only as a steakhouse, you'll probably be disappointed ... If, on the other hand, you appraise the place as dinner theater, you will find it satisfying—but only if Salt Bae is in the house"</p>
+    </div>
+  </div>
+  
+  <hr>
+  <!-- Location -->
+  <div class="w3-row w3-padding-64" id="location">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <h1> Location in Google Map</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150840.66609446314!2d29.291314790984966!3d40.96654776373757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2z2KXYs9i32YbYqNmI2YQ!5e0!3m2!1sar!2str!4v1627980560045!5m2!1sar!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+
+  </div>
+  
+  </hr>
+ 
+<!-- media -->
+  <div class="w3-row w3-padding-64" id="media">
+   
+  <div class="w3-row-padding w3-padding-16 w3-center" id="media">
+    <div class="w3-quarter">
+      <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="snap.png" alt="Sandwich" style="width:50%"></a>
+      <h3>Snapchat</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://twitter.com/twitter"><img src="twitter.png" alt="twitter" style="width:50%"></a>
+      <h3>twitter</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://ar-ar.facebook.com/"><img src="facebook.png" alt="Cherries" style="width:50%"></a>
+      <h3>facebook</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.instagram.com/"><img src="instagram.jfif" alt="instagram" style="width:50%"></a>
+      <h3>instagram</h3>
+      <p></p>
+    </div>
+  </div>
+    
+  </div>
+  
+  <hr>
+  <!-- vedio -->
+  <div class="w3-row w3-padding-64" id="video">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center"></h1><br>
+      <h5 class="w3-center"></h5>
+      <p class="w3-large"></p>
+      <p class="w3-large w3-text-grey w3-hide-medium"> </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+
+ <iframe width="600" height="393" src="https://www.youtube.com/embed/KX1zEe6D38w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <hr>
+<br>
+<br>
+<br>
+<br>
+
+<!-- breakfast-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="breakfast">
+    <div class="w3-quarter">
+      <img src="break1.jpeg" alt="Sandwich" style="width:80%">
+      <h3>2.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break2.jpeg" alt="Steak" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break3.jpeg" alt="Cherries" style="width:80%">
+      <h3>6.500 KD</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break4.jpeg" alt="Pasta and Wine" style="width:80%">
+      <h3>3.500 KD</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="break5.jpeg" alt="Popsicle" style="width:80%">
+      <h3>3.250 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break6.jpeg" alt="Salmon" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break7.jpeg" alt="Sandwich" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="break8.jpeg" alt="Croissant" style="width:80%">
+      <h3>3.250 KD</h3>
+      <p></p>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+ <!-- Food-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="food1.jpeg" alt="Sandwich" style="width:80%">
+      <h3>5.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food2.jpeg" alt="Steak" style="width:80%">
+      <h3>3.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food3.jpeg" alt="Cherries" style="width:80%">
+      <h3>3.750 KD</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food4.jpeg" alt="Pasta and Wine" style="width:80%">
+      <h3>4.750 KD</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="food5.jpeg" alt="Popsicle" style="width:80%">
+      <h3>3.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food6.jpeg" alt="Salmon" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food7.jpeg" alt="Sandwich" style="width:80%">
+      <h3>3.250 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="food8.jpeg" alt="Croissant" style="width:80%">
+      <h3>3.750 KD</h3>
+      <p></p>
+    </div>
+  </div>
+
+ <h4><b></b></h4>
+      <h6><i></i></h6>
+      <p></p>
+    </div>
+  </div>
+  <hr>
+<br>
+<br>
+<br>
+<br>
+<!-- drinks-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="drink">
+    <div class="w3-quarter">
+      <img src="drink1.jpeg" alt="Sandwich" style="width:80%">
+      <h3>2.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink2.jpg" alt="Steak" style="width:80%">
+      <h3>1.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink3.jpeg" alt="Cherries" style="width:80%">
+      <h3>2.250</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink4.jpeg" alt="Pasta and Wine" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="drink5.jpeg" alt="Popsicle" style="width:80%">
+      <h3>1.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink6.jpeg" alt="Salmon" style="width:80%">
+      <h3>2.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink7.jpeg" alt="Sandwich" style="width:80%">
+      <h3>0.750 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="drink8.jpeg" alt="Croissant" style="width:80%">
+      <h3>1.250 KD</h3>
+      <p></p>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+  <!-- sweats-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="sweat">
+    <div class="w3-quarter">
+      <img src="img12.jpeg" alt="Sandwich" style="width:80%">
+      <h3>2.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img13.jpeg" alt="Steak" style="width:80%">
+      <h3>3.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img14.jpeg" alt="Cherries" style="width:80%">
+      <h3>1.500 KD</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img15.jpeg" alt="Pasta and Wine" style="width:80%">
+      <h3>4.500 KD</h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="img16.jpeg" alt="Popsicle" style="width:80%">
+      <h3>1.500 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img17.jpeg" alt="Salmon" style="width:80%">
+      <h3>5.250 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img18.jpeg" alt="Sandwich" style="width:80%">
+      <h3>2.250 KD</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img19.jpeg" alt="Croissant" style="width:80%">
+      <h3>1.750 KD</h3>
+      <p></p>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+ <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="booking">
+    <h1>Booking</h1><br>
+    <h3> You can book a table inside or outside the restaurant  </h3>
+    <p class="w3-text-blue-grey w3-large"><b></b></p>
+    <p></p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+<p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND </button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">Contact us</h2>
+    <p class="w3-opacity w3-center"><i> Drop a note</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Istanbul, Turkey<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: TheRestaurant@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<div> 
+<p></p>
+
+<button onclick="myFunction()">Date&Time</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var d = new Date();
+  d.setDate(15);
+  document.getElementById("demo").innerHTML = d;
+}
+</script>
+</div>
+
+
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Fahad AlRashidi</a></p>
+</footer>
+
+</body>
+</html>
